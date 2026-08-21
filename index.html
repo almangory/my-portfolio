@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عثمان محمد عثمان | السيرة الذاتية ومعرض المشاريع والحلول الرقمية</title>
+  <meta name="description" content="الموقع التعريفي والمهني لعثمان محمد عثمان - أخصائي إدارة وثائق ومشاريع بنية تحتية ومطور حلول أتمتة رقمية وتطبيقات جغرافية وتعليمية">
+  <meta name="keywords" content="عثمان محمد, سيرة ذاتية, إدارة وثائق, شركة المياه الوطنية, نظم معلومات جغرافية GIS, GeoGIS Pro, منصة نقلة, أتمتة, ذكاء اصطناعي">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            },
+            accent: {
+              500: '#10b981',
+              600: '#059669',
+            }
+          },
+          fontFamily: {
+            arabic: ['Cairo', 'sans-serif'],
+            latin: ['Plus Jakarta Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts: Cairo & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body class="bg-slate-50 text-slate-800 dark:bg-[#0B0F19] dark:text-slate-100 min-h-screen transition-colors duration-300 font-arabic relative overflow-x-hidden selection:bg-blue-600 selection:text-white">
+
+  <!-- Background Ambient Glow Blobs -->
+  <div class="blob top-0 start-1/4 w-96 h-96 bg-blue-500/20 dark:bg-blue-600/15"></div>
+  <div class="blob top-1/3 end-10 w-[30rem] h-[30rem] bg-emerald-500/15 dark:bg-emerald-600/10"></div>
+  <div class="blob top-2/3 start-10 w-96 h-96 bg-indigo-500/20 dark:bg-indigo-600/15"></div>
+
+  <!-- ============================================================
+       Header & Navigation Bar
+       ============================================================ -->
+  <header class="sticky top-0 z-40 w-full glass-nav transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Brand / Logo -->
+        <a href="#hero" class="flex items-center gap-3 group">
+          <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-500 flex items-center justify-center text-white font-black text-xl shadow-lg shadow-blue-500/25 group-hover:scale-105 transition-transform">
+            ع
+          </div>
+          <div>
+            <span class="text-lg font-bold tracking-tight text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">عثمان محمد</span>
+            <div class="flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+              <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">مطور حلول ومواقع حية</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center gap-1 lg:gap-2">
+          <a href="#about" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-all">عن عثمان</a>
+          <a href="#skills" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-all">الكفاءات والمهارات</a>
+          <a href="#projects" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-all">المواقع والمشاريع</a>
+          <a href="#experience" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-all">المسيرة المهنية</a>
+          <a href="#certifications" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-all">الشهادات والاعتمادات</a>
+          <a href="#contact" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-all">تواصل معي</a>
+        </nav>
+
+        <!-- Header Actions: Theme Switcher & CV Print -->
+        <div class="hidden md:flex items-center gap-3">
+          <!-- Theme Toggle -->
+          <button id="theme-toggle" type="button" aria-label="تبديل المظهر" class="p-2.5 rounded-xl text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none transition-colors">
+            <i class="fa-solid fa-moon dark:hidden text-lg"></i>
+            <i class="fa-solid fa-sun hidden dark:inline-block text-amber-400 text-lg"></i>
+          </button>
+
+          <!-- Print CV Button -->
+          <button onclick="window.print()" class="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 text-sm font-semibold transition-all">
+            <i class="fa-solid fa-print text-blue-500"></i>
+            <span>طباعة CV</span>
+          </button>
+
+          <!-- WhatsApp Quick Contact (Primary Number) -->
+          <a href="https://wa.me/966561698865" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold shadow-md shadow-emerald-600/20 hover:shadow-lg hover:shadow-emerald-600/30 transition-all">
+            <i class="fa-brands fa-whatsapp text-base"></i>
+            <span>واتساب فوري</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <div class="flex md:hidden items-center gap-2">
+          <button id="theme-toggle-mobile" type="button" aria-label="تبديل المظهر" class="p-2 rounded-lg text-slate-600 dark:text-slate-300">
+            <i class="fa-solid fa-moon dark:hidden"></i>
+            <i class="fa-solid fa-sun hidden dark:inline-block text-amber-400"></i>
+          </button>
+          <button id="mobile-menu-btn" type="button" aria-label="القائمة" class="p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+            <i class="fa-solid fa-bars text-xl"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden md:hidden border-t border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl px-4 pt-3 pb-6 space-y-2">
+      <a href="#about" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800">عن عثمان</a>
+      <a href="#skills" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800">الكفاءات والمهارات</a>
+      <a href="#projects" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800">المواقع والمشاريع</a>
+      <a href="#experience" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800">المسيرة المهنية</a>
+      <a href="#certifications" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800">الشهادات والاعتمادات</a>
+      <a href="#contact" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-800">تواصل معي</a>
+      <div class="pt-3 border-t border-slate-200 dark:border-slate-800 flex flex-col gap-2">
+        <a href="https://wa.me/966561698865" target="_blank" class="w-full text-center py-2.5 rounded-xl bg-emerald-600 text-white font-medium">واتساب فوري</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       1. Hero Section (القسم الترحيبي)
+       ============================================================ -->
+  <section id="hero" class="relative pt-12 pb-20 md:pt-20 md:pb-32 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Hero Text Content -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-start">
+          
+          <!-- Top Badge -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-100/80 text-blue-800 dark:bg-blue-950/70 dark:text-blue-300 border border-blue-200 dark:border-blue-800/60 text-xs font-semibold shadow-sm pulse-badge">
+            <i class="fa-solid fa-globe text-blue-600 dark:text-blue-400"></i>
+            <span>مطور منصات وأنظمة جغرافية | خبرة +13 عاماً بالبنية التحتية</span>
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight">
+            مرحباً، أنا <span class="gradient-text-primary">عثمان محمد</span>
+            <br>
+            <span class="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-700 dark:text-slate-200">
+              أخصائي وثائق ومشاريع | مطور حلول وتطبيقات ويب
+            </span>
+          </h1>
+
+          <!-- Tagline & Description -->
+          <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+            أجمع بين الانضباط الميداني وضبط الجودة (QA/QC) في مشاريع البنية التحتية الكبرى بالمملكة العربية السعودية (معتمد رسمياً من شركة المياه الوطنية)، وبين الشغف البرمجي لبناء منصات وتطبيقات ويب في مجالات الأنظمة الجغرافية (GIS)، أتمتة الدورة المستندية، وتطوير المنصات التعليمية المبتكرة.
+          </p>
+
+          <!-- Fast Contact Meta Chips -->
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+            <span class="flex items-center gap-1.5 bg-white/70 dark:bg-slate-800/70 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700">
+              <i class="fa-solid fa-location-dot text-rose-500"></i>
+              الرياض، المملكة العربية السعودية
+            </span>
+            <span class="flex items-center gap-1.5 bg-white/70 dark:bg-slate-800/70 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700">
+              <i class="fa-solid fa-phone text-emerald-500"></i>
+              <span class="font-mono dir-ltr">0561698865</span>
+            </span>
+            <span class="flex items-center gap-1.5 bg-white/70 dark:bg-slate-800/70 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700">
+              <i class="fa-solid fa-passport text-blue-500"></i>
+              إقامة نظامية سارية (متزوج)
+            </span>
+            <span class="flex items-center gap-1.5 bg-white/70 dark:bg-slate-800/70 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700">
+              <i class="fa-solid fa-id-card text-indigo-500"></i>
+              رخصة قيادة سعودية
+            </span>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
+            <a href="#projects" class="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm sm:text-base shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 hover:-translate-y-0.5 transition-all flex items-center gap-2">
+              <i class="fa-solid fa-laptop-code"></i>
+              <span>استعراض المواقع والمشاريع</span>
+            </a>
+            
+            <a href="#contact" class="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-white font-bold text-sm sm:text-base border border-slate-300 dark:border-slate-700 shadow-sm hover:-translate-y-0.5 transition-all flex items-center gap-2">
+              <i class="fa-solid fa-paper-plane text-blue-500"></i>
+              <span>تواصل معي</span>
+            </a>
+
+            <button onclick="window.print()" class="px-4 py-3.5 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800/90 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-semibold text-sm border border-slate-200 dark:border-slate-700 transition-all flex items-center gap-2">
+              <i class="fa-solid fa-file-arrow-down text-emerald-500"></i>
+              <span>تحميل / طباعة CV</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Hero Visual Profile Card -->
+        <div class="lg:col-span-5 flex justify-center">
+          <div class="relative w-full max-w-md">
+            
+            <!-- Glow background -->
+            <div class="absolute -inset-1.5 bg-gradient-to-r from-blue-600 via-cyan-500 to-emerald-500 rounded-3xl blur-xl opacity-40 dark:opacity-50 animate-pulse"></div>
+
+            <!-- Profile Card -->
+            <div class="relative glass-card rounded-3xl p-6 sm:p-8 shadow-2xl space-y-6">
+              
+              <!-- Avatar & Status -->
+              <div class="flex items-center gap-4">
+                <div class="relative">
+                  <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-slate-900 to-blue-900 dark:from-blue-600 dark:to-cyan-600 flex items-center justify-center text-white text-3xl font-black shadow-md border-2 border-white/50">
+                    OM
+                  </div>
+                  <span class="absolute -bottom-1 -start-1 w-5 h-5 rounded-full bg-emerald-500 border-2 border-white dark:border-slate-900 flex items-center justify-center text-[10px] text-white">✓</span>
+                </div>
+                <div>
+                  <h3 class="text-xl font-bold text-slate-900 dark:text-white">عثمان محمد عثمان</h3>
+                  <p class="text-xs text-blue-600 dark:text-blue-400 font-semibold mt-0.5">Senior Document & Project Specialist</p>
+                  <p class="text-xs text-slate-500 dark:text-slate-400 font-mono">13+ Years In Mega Projects</p>
+                </div>
+              </div>
+
+              <!-- Quick Highlights Badges -->
+              <div class="space-y-3 pt-2 border-t border-slate-100 dark:border-slate-800">
+                
+                <div class="flex items-center gap-3 p-2.5 rounded-xl bg-blue-50/60 dark:bg-blue-950/40 border border-blue-100 dark:border-blue-900/40">
+                  <div class="w-8 h-8 rounded-lg bg-blue-500 text-white flex items-center justify-center text-sm font-bold">
+                    <i class="fa-solid fa-earth-americas"></i>
+                  </div>
+                  <div class="text-xs">
+                    <div class="font-bold text-slate-800 dark:text-slate-200">تطبيق GeoGIS Pro للخرائط</div>
+                    <div class="text-slate-500 dark:text-slate-400">محول ومحاكي سريان شبكات NWC الحي</div>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-3 p-2.5 rounded-xl bg-emerald-50/60 dark:bg-emerald-950/40 border border-emerald-100 dark:border-emerald-900/40">
+                  <div class="w-8 h-8 rounded-lg bg-emerald-500 text-white flex items-center justify-center text-sm font-bold">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                  </div>
+                  <div class="text-xs">
+                    <div class="font-bold text-slate-800 dark:text-slate-200">منصة "نقلة" للمناهج الإلكترونية</div>
+                    <div class="text-slate-500 dark:text-slate-400">مبادرة تعليمية تفاعلية للسودان (EdTech)</div>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-3 p-2.5 rounded-xl bg-indigo-50/60 dark:bg-indigo-950/40 border border-indigo-100 dark:border-indigo-900/40">
+                  <div class="w-8 h-8 rounded-lg bg-indigo-500 text-white flex items-center justify-center text-sm font-bold">
+                    <i class="fa-solid fa-water"></i>
+                  </div>
+                  <div class="text-xs">
+                    <div class="font-bold text-slate-800 dark:text-slate-200">اعتماد شركة المياه الوطنية (NWC)</div>
+                    <div class="text-slate-500 dark:text-slate-400">مراقب ومنسق مشاريع شبكات الرياض</div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Contact Quick Trigger -->
+              <div class="pt-2 flex items-center justify-between">
+                <button class="copy-btn text-xs font-semibold text-emerald-600 dark:text-emerald-400 hover:underline flex items-center gap-1.5" data-copy="0561698865">
+                  <i class="fa-regular fa-copy"></i>
+                  <span>نسخ الجوال: 0561698865</span>
+                </button>
+                <button class="copy-btn text-xs font-semibold text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1.5" data-copy="Osman_almangory@hotmail.com">
+                  <i class="fa-regular fa-copy"></i>
+                  <span>نسخ الإيميل</span>
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Fast Metrics Counter Section
+       ============================================================ -->
+  <section id="stats-section" class="py-10 bg-gradient-to-r from-blue-600 to-indigo-700 text-white shadow-xl relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        
+        <div class="p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15">
+          <div class="text-3xl sm:text-4xl font-extrabold flex items-center justify-center gap-1">
+            <span class="stat-counter" data-target="13">0</span>
+            <span>+</span>
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-blue-100 mt-1">سنوات خبرة بالمملكة</div>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15">
+          <div class="text-3xl sm:text-4xl font-extrabold flex items-center justify-center gap-1">
+            <span class="stat-counter" data-target="123">0</span>
+            <span>+</span>
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-blue-100 mt-1">مشروعاً مداراً عبر الأنظمة</div>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15">
+          <div class="text-3xl sm:text-4xl font-extrabold flex items-center justify-center gap-1">
+            <span class="stat-counter" data-target="100">0</span>
+            <span>%</span>
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-blue-100 mt-1">دقة أتمتة وتدقيق البيانات</div>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15">
+          <div class="text-3xl sm:text-4xl font-extrabold flex items-center justify-center gap-1">
+            <span class="stat-counter" data-target="8">0</span>
+            <span>+</span>
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-blue-100 mt-1">شهادات واعتمادات دولية</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       2. About Me Section (نبذة عني)
+       ============================================================ -->
+  <section id="about" class="py-20 md:py-28 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <span class="px-3.5 py-1 rounded-full bg-blue-50 text-blue-600 dark:bg-blue-950/60 dark:text-blue-400 text-xs font-bold uppercase tracking-wider border border-blue-200 dark:border-blue-900">
+          القصة والخبرة
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white">من هو عثمان محمد؟</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-base sm:text-lg">
+          الجمع بين الانضباط الهندسي الميداني والابتكار البرمجي وبناء الأنظمة المكانية
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- Left: Story Narrative -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="glass-card rounded-2xl p-6 sm:p-8 space-y-5 shadow-sm">
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
+              <i class="fa-solid fa-user-tie text-blue-600 dark:text-blue-400"></i>
+              <span>مسيرة مهنية تصنع الفارق التقني والهندسي</span>
+            </h3>
+            
+            <p class="text-slate-600 dark:text-slate-300 leading-relaxed text-justify">
+              كادر هندسي وتقني متمرس بخبرة تزيد عن <strong class="text-blue-600 dark:text-blue-400">13 عاماً</strong> في إدارة، تنسيق، والإشراف على مشاريع البنية التحتية والبيئية (المياه والصرف الصحي) والمشاريع الإنشائية الكبرى بالمملكة العربية السعودية.
+            </p>
+
+            <p class="text-slate-600 dark:text-slate-300 leading-relaxed text-justify">
+              خلال مسيرتي، تدرجت في مختلف المواقع الحيوية: من إدخال البيانات الميدانية وحصر التوصيلات، ومراقبة المواقع، وأخصائي جودة شاملة (QA/QC) بالمكتب الرئيسي، إلى منسق مشاريع وأخصائي إدارة وثائق ومستندات (EDMS) لأكبر المكاتب الاستشارية العالمية والمحلية في مشاريع شركة المياه الوطنية (NWC).
+            </p>
+
+            <p class="text-slate-600 dark:text-slate-300 leading-relaxed text-justify">
+              ما يمنحني ميزة تنافسية هو <strong class="text-emerald-600 dark:text-emerald-400">القدرة على ابتكار وبناء أنظمة برمجية ومكانية حقيقية</strong>؛ مثل تطبيق <strong class="text-blue-600 dark:text-blue-400">GeoGIS Pro</strong> لمعالجة الخرائط ومحاكاة السريان الهيدروليكي، وبوابة <strong class="text-indigo-600 dark:text-indigo-400">الخرائط التفاعلية</strong> لإدارة شبكات المياه والصرف الصحي وتتبع أكثر من 123 مشروعاً، ومنصة <strong class="text-emerald-600 dark:text-emerald-400">نقلة</strong> للمناهج الإلكترونية بالسودان.
+            </p>
+          </div>
+        </div>
+
+        <!-- Right: Pillars of Value -->
+        <div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
+          
+          <div class="glass-card rounded-2xl p-5 border-s-4 border-s-blue-500 flex items-start gap-4">
+            <div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-600 dark:bg-blue-950 dark:text-blue-400 flex items-center justify-center shrink-0">
+              <i class="fa-solid fa-stamp text-lg"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">معتمد من شركة المياه الوطنية</h4>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">مراقب ومنسق مشاريع معتمد رسمياً في عقود الإشراف الهندسي لشبكات الرياض.</p>
+            </div>
+          </div>
+
+          <div class="glass-card rounded-2xl p-5 border-s-4 border-s-emerald-500 flex items-start gap-4">
+            <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-600 dark:bg-emerald-950 dark:text-emerald-400 flex items-center justify-center shrink-0">
+              <i class="fa-solid fa-laptop-code text-lg"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">هندسة وبناء المنصات الجغرافية</h4>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">تطوير نظم متكاملة لإدارة وتتبع المشاريع والطبقات المكانية في الوقت الفعلي.</p>
+            </div>
+          </div>
+
+          <div class="glass-card rounded-2xl p-5 border-s-4 border-s-indigo-500 flex items-start gap-4">
+            <div class="w-10 h-10 rounded-xl bg-indigo-100 text-indigo-600 dark:bg-indigo-950 dark:text-indigo-400 flex items-center justify-center shrink-0">
+              <i class="fa-solid fa-shield-halved text-lg"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">ضبط الجودة والامتثال الفني</h4>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">خبرة مكرسة في معايير QA/QC والمطابقة الفنية للمواصفات وكود البناء.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       3. Skills & Competencies Section (الكفاءات والمهارات)
+       ============================================================ -->
+  <section id="skills" class="py-20 bg-slate-100/70 dark:bg-slate-900/50 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <span class="px-3.5 py-1 rounded-full bg-emerald-50 text-emerald-600 dark:bg-emerald-950/60 dark:text-emerald-400 text-xs font-bold uppercase tracking-wider border border-emerald-200 dark:border-emerald-900">
+          المصفوفة المهارية
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white">الكفاءات والمهارات التخصصية</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-base">
+          تكامل شامل بين الإدارة الهندسية والقدرات البرمجية وتطوير الويب
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Skill Card 1: Web Dev & AI -->
+        <div class="glass-card rounded-2xl p-6 space-y-4 hover:-translate-y-1.5 transition-all duration-300 shadow-sm hover:shadow-xl border-t-4 border-t-blue-500">
+          <div class="w-12 h-12 rounded-xl bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center text-xl">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 dark:text-white">تطوير الويب والذكاء الاصطناعي</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+            بناء وتطوير تطبيقات الويب التفاعلية (PWA)، استضافة ونشر المنصات السحابية، وتوظيف نماذج الذكاء الاصطناعي التوليدي.
+          </p>
+          <ul class="space-y-2 pt-2 text-xs font-medium text-slate-700 dark:text-slate-300">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-500"></i> تطبيقات الويب التفاعلية والـ PWA</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-500"></i> نماذج GenAI وتحليل الوثائق</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-500"></i> النشر السحابي (Vercel, Cloudflare)</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-500"></i> تكامل الواجهات البرمجية APIs</li>
+          </ul>
+        </div>
+
+        <!-- Skill Card 2: GIS & Spatial Data -->
+        <div class="glass-card rounded-2xl p-6 space-y-4 hover:-translate-y-1.5 transition-all duration-300 shadow-sm hover:shadow-xl border-t-4 border-t-emerald-500">
+          <div class="w-12 h-12 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xl">
+            <i class="fa-solid fa-earth-americas"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 dark:text-white">الأنظمة الجغرافية (GIS)</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+            معالجة وإدارة البيانات المكانية والهندسية، التعامل مع طبقات الخرائط ومحاكاة السريان الهيدروليكي للشبكات بدقة.
+          </p>
+          <ul class="space-y-2 pt-2 text-xs font-medium text-slate-700 dark:text-slate-300">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> معالجة ملفات KML / KMZ / GeoJSON</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> محاكاة السريان الهيدروليكي للشبكات</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> خرائط Leaflet التفاعلية</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> حساب كميات الأسفلت والمناهل</li>
+          </ul>
+        </div>
+
+        <!-- Skill Card 3: Project & EDMS -->
+        <div class="glass-card rounded-2xl p-6 space-y-4 hover:-translate-y-1.5 transition-all duration-300 shadow-sm hover:shadow-xl border-t-4 border-t-indigo-500">
+          <div class="w-12 h-12 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 flex items-center justify-center text-xl">
+            <i class="fa-solid fa-folder-tree"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 dark:text-white">إدارة المشاريع والوثائق</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+            إدارة وتتبع الوثائق الرقمية (EDMS)، التنسيق الميداني بين الاستشاري والمقاول وشركة المياه الوطنية وضبط الجودة.
+          </p>
+          <ul class="space-y-2 pt-2 text-xs font-medium text-slate-700 dark:text-slate-300">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-500"></i> تتبع الاعتمادات والمراسلات</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-500"></i> ضبط الجودة الشاملة (QA/QC)</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-500"></i> إدارة الدورة المستندية الهندسية</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-500"></i> إعداد التقارير الفنية الدورية</li>
+          </ul>
+        </div>
+
+        <!-- Skill Card 4: IT & Infrastructure -->
+        <div class="glass-card rounded-2xl p-6 space-y-4 hover:-translate-y-1.5 transition-all duration-300 shadow-sm hover:shadow-xl border-t-4 border-t-cyan-500">
+          <div class="w-12 h-12 rounded-xl bg-cyan-50 dark:bg-cyan-950/60 text-cyan-600 dark:text-cyan-400 flex items-center justify-center text-xl">
+            <i class="fa-solid fa-network-wired"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 dark:text-white">البنية التحتية والدعم التقني</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+            إدارة وتأمين شبكات الحاسب، صيانة ودعم الأنظمة، معالجة قواعد البيانات وإدارة البيئات التقنية بالمواقع.
+          </p>
+          <ul class="space-y-2 pt-2 text-xs font-medium text-slate-700 dark:text-slate-300">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500"></i> معتمد دعم فني من Google</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500"></i> احتراف Microsoft 365 و Excel</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500"></i> تأمين وإدارة شبكات المواقع</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500"></i> حل المشكلات واكتشاف الأعطال</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       4. Featured Projects & Live Web Apps (المواقع والمشاريع)
+       ============================================================ -->
+  <section id="projects" class="py-20 md:py-28 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+        <span class="px-3.5 py-1 rounded-full bg-blue-50 text-blue-600 dark:bg-blue-950/60 dark:text-blue-400 text-xs font-bold uppercase tracking-wider border border-blue-200 dark:border-blue-900">
+          معرض الأعمال والمنصات
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white">المواقع والمشاريع والحلول المبتكرة</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-base">
+          استكشف التطبيقات الحية والأنظمة المكانية وقواعد البيانات الهندسية التي قمت بتطويرها
+        </p>
+      </div>
+
+      <!-- Project Filter Buttons -->
+      <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-12">
+        <button type="button" data-filter="all" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-blue-600 text-white shadow-md shadow-blue-500/20 transition-all">
+          الكل (All)
+        </button>
+        <button type="button" data-filter="live-apps" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700 transition-all flex items-center gap-1.5">
+          <i class="fa-solid fa-globe text-emerald-500"></i>
+          <span>مواقع وتطبيقات حية (Live)</span>
+        </button>
+        <button type="button" data-filter="gis-db" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700 transition-all">
+          الأنظمة الجغرافية و GIS
+        </button>
+        <button type="button" data-filter="infrastructure" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700 transition-all">
+          إدارة الوثائق والبنية التحتية
+        </button>
+        <button type="button" data-filter="edtech" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700 transition-all">
+          مشاريع التعليم والمبادرات الخاصة
+        </button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Live Project 1: GeoGIS Pro -->
+        <div class="project-card glass-card rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 flex flex-col justify-between group border-2 border-emerald-500/40 relative" data-category="live-apps gis-db">
+          <div class="p-6 space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-1 rounded-lg text-xs font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-950/70 dark:text-emerald-300 flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                موقع حي ومباشر (PWA)
+              </span>
+              <span class="text-xs font-mono text-emerald-600 dark:text-emerald-400 font-bold">Cloudflare Pages</span>
+            </div>
+            
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+              المحول الشامل للخرائط الجغرافية | GeoGIS Pro
+            </h3>
+            
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+              تطبيق ويب هندسي وتطبيق PWA متكامل يدعم معايير شركة المياه الوطنية (NWC Theme)، مع محاكاة بصرية حية لاتجاهات السريان الهيدروليكي لشبكات الصرف الصحي، تحويل صيغ KML/KMZ، وحساب كميات الأسفلت والمناهل.
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 pt-2">
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">Leaflet.js</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">Hydraulic Animation</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">PWA Offline</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">KML/KMZ</span>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0 space-y-2">
+            <a href="https://map-tools-657.pages.dev/" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-bold shadow-md shadow-emerald-600/20 transition-all flex items-center justify-center gap-2">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <span>زيارة وتجربة الموقع المباشر</span>
+            </a>
+            <button type="button" class="open-project-btn w-full py-2 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-semibold transition-all flex items-center justify-center gap-1.5" data-project-id="project-geogis">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>تفاصيل وبنية الحل التقني</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 2: Protected Interactive Maps System (With Preview Screenshot) -->
+        <div class="project-card glass-card rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 flex flex-col justify-between group border border-slate-200/80 dark:border-slate-800 relative" data-category="gis-db infrastructure">
+          
+          <!-- Image Preview Header -->
+          <div class="relative overflow-hidden cursor-pointer open-project-btn" data-project-id="project-interactive-maps">
+            <img src="assets/images/interactive-maps-preview.png" alt="بوابة الخرائط التفاعلية لشبكات المياه والصرف الصحي" class="w-full h-48 sm:h-52 object-cover object-top group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+            <div class="absolute top-3 start-3">
+              <span class="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-900/90 text-white backdrop-blur-md border border-white/20 flex items-center gap-1">
+                <i class="fa-solid fa-lock text-amber-400"></i>
+                نظام داخلي محمي
+              </span>
+            </div>
+            <div class="absolute bottom-3 start-3 end-3 flex items-center justify-between text-white text-xs">
+              <span class="font-bold flex items-center gap-1">
+                <i class="fa-solid fa-layer-group text-blue-400"></i> 123+ مشروعاً مفعلاً
+              </span>
+              <span class="bg-blue-600/80 px-2 py-0.5 rounded text-[10px] font-semibold">استعراض الواجهة</span>
+            </div>
+          </div>
+
+          <div class="p-6 space-y-4">
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+              بوابة الخرائط التفاعلية لإدارة وتحليل شبكات المياه والصرف الصحي
+            </h3>
+            
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+              بوابة إدارية وتحليلية جغرافية متكاملة خاصة بإدارة وتتبع عقود ومشاريع شبكات المياه والصرف الصحي بمدينة الرياض مع لوحة تحكم لتوزيع الصلاحيات، البحث المتقدم، وتتبع حالة تنفيذ العقود.
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 pt-2">
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-blue-50 text-blue-700 dark:bg-blue-950/40 dark:text-blue-300">Spatial Query</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-blue-50 text-blue-700 dark:bg-blue-950/40 dark:text-blue-300">Role-Based Access</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-blue-50 text-blue-700 dark:bg-blue-950/40 dark:text-blue-300">NWC Projects</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-blue-50 text-blue-700 dark:bg-blue-950/40 dark:text-blue-300">Interactive GIS</span>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0">
+            <button type="button" class="open-project-btn w-full py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-bold shadow-md shadow-blue-600/20 transition-all flex items-center justify-center gap-2" data-project-id="project-interactive-maps">
+              <i class="fa-solid fa-images"></i>
+              <span>استعراض لقطة الشاشة وتفاصيل النظام</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Live Project 3: Sudan EdTech Platform (Naqla) -->
+        <div class="project-card glass-card rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 flex flex-col justify-between group border-2 border-amber-500/40 relative" data-category="live-apps edtech">
+          <div class="p-6 space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-1 rounded-lg text-xs font-bold bg-amber-100 text-amber-800 dark:bg-amber-950/70 dark:text-amber-300 flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-amber-500 animate-ping"></span>
+                مبادرة تعليمية حية 🌟
+              </span>
+              <span class="text-xs font-mono text-amber-600 dark:text-amber-400 font-bold">Vercel Deployment</span>
+            </div>
+            
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">
+              منصة "نقلة" للمناهج الإلكترونية وتطوير التعليم بالسودان
+            </h3>
+            
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+              مبادرة ومشروع خاص مبتكر يهدف لتحسين جودة التعليم في السودان، وتحويل المناهج الوطنية لكافة المراحل إلى تجربة رقمية تفاعلية تدعم العمل دون إنترنت (Offline-First) لخدمة الطلاب والمدارس.
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 pt-2">
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-amber-50 text-amber-700 dark:bg-amber-950/40 dark:text-amber-300">EdTech Innovation</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-amber-50 text-amber-700 dark:bg-amber-950/40 dark:text-amber-300">Offline-First PWA</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-amber-50 text-amber-700 dark:bg-amber-950/40 dark:text-amber-300">Sudan Curricula</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-amber-50 text-amber-700 dark:bg-amber-950/40 dark:text-amber-300">Vercel Cloud</span>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0 space-y-2">
+            <a href="https://sudan-interactive-curricula.vercel.app/" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs sm:text-sm font-bold shadow-md shadow-amber-600/20 transition-all flex items-center justify-center gap-2">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <span>زيارة وتجربة منصة المناهج</span>
+            </a>
+            <button type="button" class="open-project-btn w-full py-2 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-semibold transition-all flex items-center justify-center gap-1.5" data-project-id="project-naqla">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>تفاصيل المبادرة والأثر التعليمي</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 4: Client Orders DB -->
+        <div class="project-card glass-card rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group" data-category="infrastructure gis-db">
+          <div class="p-6 space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-1 rounded-lg text-xs font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-950/70 dark:text-emerald-300">
+                منجز ومشغل بنجاح
+              </span>
+              <span class="text-xs font-mono text-slate-400">2015 - الآن</span>
+            </div>
+            
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+              نظام إدارة طلبات العملاء وقواعد البيانات الميدانية
+            </h3>
+            
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+              نظام تقني متكامل تم تصميمه وبناؤه بقواعد بيانات مخصصة لإدارة طلبات توصيلات الصرف الصحي وحصر المباني السكنية والتجارية بالرياض، ويعمل بكفاءة مستمرة بالقطاع منذ عام 2015م.
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 pt-2">
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300">Database Design</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300">Data Validation</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300">NWC Data</span>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0">
+            <button type="button" class="open-project-btn w-full py-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 dark:bg-blue-950/50 dark:hover:bg-blue-900/60 text-blue-600 dark:text-blue-300 text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2" data-project-id="project-1">
+              <span>عرض تفاصيل المشروع والأثر</span>
+              <i class="fa-solid fa-arrow-left text-xs"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 5: Smart EDMS Flow -->
+        <div class="project-card glass-card rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group" data-category="infrastructure">
+          <div class="p-6 space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-1 rounded-lg text-xs font-bold bg-indigo-100 text-indigo-800 dark:bg-indigo-950/70 dark:text-indigo-300">
+                منظومة إدارية ذكية
+              </span>
+              <span class="text-xs font-mono text-slate-400">EDMS & NWC</span>
+            </div>
+            
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+              منظومة أتمتة الدورة المستندية والمراسلات الفنية
+            </h3>
+            
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+              بيئة أرشفة وتتبع رقمية تربط تدفق الخطابات، المخططات التنفيذية، والاعتمادات الفنية بين المقاول والاستشاري وشركة المياه الوطنية (NWC) لتقليص وقت المراجعة بنسبة 40%.
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 pt-2">
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300">MS 365 Automation</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300">Workflow Tracker</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300">Audit Logs</span>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0">
+            <button type="button" class="open-project-btn w-full py-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 dark:bg-blue-950/50 dark:hover:bg-blue-900/60 text-blue-600 dark:text-blue-300 text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2" data-project-id="project-3">
+              <span>عرض تفاصيل المشروع والأثر</span>
+              <i class="fa-solid fa-arrow-left text-xs"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 6: Spatial CAD / KML Scripting -->
+        <div class="project-card glass-card rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group" data-category="gis-db infrastructure">
+          <div class="p-6 space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-1 rounded-lg text-xs font-bold bg-blue-100 text-blue-800 dark:bg-blue-950/70 dark:text-blue-300">
+                أداة معالجة مكانية
+              </span>
+              <span class="text-xs font-mono text-slate-400">GIS & CAD</span>
+            </div>
+            
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+              أداة الأتمتة والمعالجة المكانية للمخططات الجغرافية
+            </h3>
+            
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+              سكربتات برمجية مخصصة لتنظيم ومعالجة وتصنيف ملفات المخططات المكانية (KML/KMZ) وتطابقها مع جداول الحصر، محققة وفراً ضخماً في ساعات التدقيق اليدوي.
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 pt-2">
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300">KML / KMZ</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300">GIS Layers</span>
+              <span class="px-2 py-0.5 text-[11px] font-medium rounded bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300">Spatial Automation</span>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0">
+            <button type="button" class="open-project-btn w-full py-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 dark:bg-blue-950/50 dark:hover:bg-blue-900/60 text-blue-600 dark:text-blue-300 text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2" data-project-id="project-2">
+              <span>عرض تفاصيل المشروع والأثر</span>
+              <i class="fa-solid fa-arrow-left text-xs"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       5. Work Experience Timeline (المسيرة المهنية والخبرات)
+       ============================================================ -->
+  <section id="experience" class="py-20 bg-slate-100/70 dark:bg-slate-900/50 relative">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <span class="px-3.5 py-1 rounded-full bg-indigo-50 text-indigo-600 dark:bg-indigo-950/60 dark:text-indigo-400 text-xs font-bold uppercase tracking-wider border border-indigo-200 dark:border-indigo-900">
+          المسار الوظيفي
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white">المسيرة المهنية والخبرات العملية</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-base">
+          تدرج مهني متصاعد في كبرى مشاريع الإشراف الهندسي والاستشارات بالمملكة
+        </p>
+      </div>
+
+      <!-- Vertical Timeline -->
+      <div class="relative space-y-8 before:absolute before:inset-0 before:start-4 md:before:start-6 before:w-0.5 before:bg-gradient-to-b before:from-blue-600 before:via-emerald-500 before:to-indigo-600">
+        
+        <!-- Experience 1: Current -->
+        <div class="relative flex items-start gap-6 ps-10 md:ps-14">
+          <div class="absolute start-2 md:start-4 -translate-x-1/2 w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center ring-4 ring-blue-100 dark:ring-blue-950 text-xs font-bold">
+            1
+          </div>
+          <div class="glass-card rounded-2xl p-6 w-full shadow-sm space-y-3">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <span class="px-3 py-1 rounded-lg bg-blue-100 text-blue-800 dark:bg-blue-950/70 dark:text-blue-300 text-xs font-bold">
+                أكتوبر 2023 – حتى الآن
+              </span>
+              <span class="text-xs font-medium text-slate-500 dark:text-slate-400 flex items-center gap-1">
+                <i class="fa-solid fa-location-dot text-rose-500"></i> الرياض - القطاع الأوسط
+              </span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white">أخصائي وثائق ومستندات (EDMS Specialist)</h3>
+            <p class="text-xs sm:text-sm font-semibold text-blue-600 dark:text-blue-400">
+              مكتب الباردة للاستشارات الهندسية | مشروع المياه والصرف الصحي بالقطاع الأوسط (شركة المياه الوطنية)
+            </p>
+            <ul class="space-y-1.5 text-xs sm:text-sm text-slate-600 dark:text-slate-300 list-disc list-inside pt-2">
+              <li>إدارة وتصميم السجلات الرقمية وقواعد البيانات لأرشفة وتتبع كافة المراسلات والاعتمادات الفنية والمخططات الهندسية بين أطراف المشروع.</li>
+              <li>أتمتة وتسهيل تدفق المعلومات التقنية بين الاستشاري والمقاول وشركة المياه الوطنية للحد من الدورة المستندية وزيادة سرعة الاعتمادات.</li>
+              <li>إعداد التقارير الفنية التحليلية ومتابعة المراسلات الرسمية لضمان سير العمل وفق خطة إدارة المشروع.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="relative flex items-start gap-6 ps-10 md:ps-14">
+          <div class="absolute start-2 md:start-4 -translate-x-1/2 w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center ring-4 ring-emerald-100 dark:ring-emerald-950 text-xs font-bold">
+            2
+          </div>
+          <div class="glass-card rounded-2xl p-6 w-full shadow-sm space-y-3">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300 text-xs font-bold">
+                أبريل 2021 – أكتوبر 2023
+              </span>
+              <span class="text-xs font-medium text-slate-500 dark:text-slate-400 flex items-center gap-1">
+                <i class="fa-solid fa-location-dot text-rose-500"></i> جنوب مدينة الرياض
+              </span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white">مراقب مشروع (Project Inspector)</h3>
+            <p class="text-xs sm:text-sm font-semibold text-emerald-600 dark:text-emerald-400">
+              شركة المهندسون الاستشاريون (AAW) وشركاه بالتحالف مع فؤاد الصالح | عقد رقم (4) شركة المياه الوطنية
+            </p>
+            <ul class="space-y-1.5 text-xs sm:text-sm text-slate-600 dark:text-slate-300 list-disc list-inside pt-2">
+              <li>مراقبة تنفيذ عقد الخدمات الهندسية الاستشارية للإشراف على مشاريع الخدمات البيئية جنوب الرياض.</li>
+              <li>التدقيق الميداني على مطابقة شبكات المياه والتوصيلات للمواصفات القياسية المعتمدة.</li>
+              <li>توثيق وحصر الأعمال اليومية وإعداد تقارير الإشراف الدورية للمكتب الاستشاري.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="relative flex items-start gap-6 ps-10 md:ps-14">
+          <div class="absolute start-2 md:start-4 -translate-x-1/2 w-6 h-6 rounded-full bg-indigo-600 text-white flex items-center justify-center ring-4 ring-indigo-100 dark:ring-indigo-950 text-xs font-bold">
+            3
+          </div>
+          <div class="glass-card rounded-2xl p-6 w-full shadow-sm space-y-3">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300 text-xs font-bold">
+                أغسطس 2017 – مارس 2021
+              </span>
+              <span class="text-xs font-medium text-slate-500 dark:text-slate-400 flex items-center gap-1">
+                <i class="fa-solid fa-location-dot text-rose-500"></i> غرب مدينة الرياض
+              </span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white">منسق مشاريع (Project Coordinator)</h3>
+            <p class="text-xs sm:text-sm font-semibold text-indigo-600 dark:text-indigo-400">
+              شركة فؤاد الصالح وخالد الضويلع للاستشارات الهندسية والبيئية | عقد رقم (3) شركة المياه الوطنية
+            </p>
+            <ul class="space-y-1.5 text-xs sm:text-sm text-slate-600 dark:text-slate-300 list-disc list-inside pt-2">
+              <li>إدارة التنسيق والربط بين الفرق الميدانية والإدارة العليا لضمان الالتزام بالجدول الزمني ومراحل تنفيذ المشروع.</li>
+              <li>متابعة المعاملات الرسمية والخطابات واختبارات الجودة والاعتمادات الهندسية مع شركة المياه الوطنية.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience 4 -->
+        <div class="relative flex items-start gap-6 ps-10 md:ps-14">
+          <div class="absolute start-2 md:start-4 -translate-x-1/2 w-6 h-6 rounded-full bg-cyan-600 text-white flex items-center justify-center ring-4 ring-cyan-100 dark:ring-cyan-950 text-xs font-bold">
+            4
+          </div>
+          <div class="glass-card rounded-2xl p-6 w-full shadow-sm space-y-3">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300 text-xs font-bold">
+                ديسمبر 2016 – أغسطس 2017
+              </span>
+              <span class="text-xs font-medium text-slate-500 dark:text-slate-400">المكتب الرئيسي بالرياض</span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white">أخصائي جودة شاملة (QA/QC Specialist)</h3>
+            <p class="text-xs sm:text-sm font-semibold text-cyan-600 dark:text-cyan-400">
+              شركة فؤاد الصالح وخالد الضويلع للاستشارات الهندسية
+            </p>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300">
+              التدقيق الدوري على العمليات الإدارية والإجراءات الفنية بالمكتب الرئيسي للتأكد من تطبيق أعلى معايير الجودة الشاملة (QA/QC) والامتثال المؤسسي.
+            </p>
+          </div>
+        </div>
+
+        <!-- Experience 5 -->
+        <div class="relative flex items-start gap-6 ps-10 md:ps-14">
+          <div class="absolute start-2 md:start-4 -translate-x-1/2 w-6 h-6 rounded-full bg-slate-600 text-white flex items-center justify-center ring-4 ring-slate-200 dark:ring-slate-800 text-xs font-bold">
+            5
+          </div>
+          <div class="glass-card rounded-2xl p-6 w-full shadow-sm space-y-3">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300 text-xs font-bold">
+                أبريل 2015 – ديسمبر 2016
+              </span>
+              <span class="text-xs font-medium text-slate-500 dark:text-slate-400">مدينة الرياض</span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-white">مراقب موقع ومدخل بيانات</h3>
+            <p class="text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-400">
+              شركة فؤاد الصالح وخالد الضويلع للاستشارات الهندسية
+            </p>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300">
+              الإشراف على شبكات الصرف الصحي بالرياض، حصر وإدخال بيانات التوصيلات للمباني السكنية والتجارية بدقة عالية، وتصميم نظام إدارة الطلبات الميدانية الذي لا يزال قيد التشغيل.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       6. Education & Certifications Section (الشهادات والاعتمادات)
+       ============================================================ -->
+  <section id="certifications" class="py-20 md:py-28 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <span class="px-3.5 py-1 rounded-full bg-emerald-50 text-emerald-600 dark:bg-emerald-950/60 dark:text-emerald-400 text-xs font-bold uppercase tracking-wider border border-emerald-200 dark:border-emerald-900">
+          المؤهلات والاعتمادات
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white">الشهادات والاعتمادات الأكاديمية والمهنية</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-base">
+          اعتمادات رسمية من شركة المياه الوطنية وشهادات عالمية ومحلية موثقة
+        </p>
+      </div>
+
+      <!-- Degree Banner -->
+      <div class="glass-card rounded-3xl p-6 sm:p-8 mb-12 border-s-8 border-s-blue-600 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div class="flex items-start gap-4">
+          <div class="w-14 h-14 rounded-2xl bg-blue-100 dark:bg-blue-950 text-blue-600 dark:text-blue-400 flex items-center justify-center text-2xl shrink-0">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div>
+            <span class="text-xs font-bold text-blue-600 dark:text-blue-400">المؤهل الجامعي الأكاديمي</span>
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white mt-1">بكالوريوس (مرتبة الشرف) في العلوم الزراعية</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-400">جامعة السودان للعلوم والتكنولوجيا (2005م – 2010م)</p>
+          </div>
+        </div>
+        <div class="px-4 py-2 rounded-xl bg-blue-50 dark:bg-blue-950/50 text-blue-700 dark:text-blue-300 text-xs font-bold">
+          Sudan University of Science & Technology
+        </div>
+      </div>
+
+      <!-- Certifications Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Cert 1: Google IT -->
+        <div class="glass-card rounded-2xl p-6 space-y-3 shadow-sm hover:shadow-lg transition-all border border-slate-200/80 dark:border-slate-800">
+          <div class="flex items-center justify-between">
+            <div class="w-10 h-10 rounded-xl bg-red-50 text-red-600 dark:bg-red-950/60 dark:text-red-400 flex items-center justify-center text-lg">
+              <i class="fa-brands fa-google"></i>
+            </div>
+            <span class="text-xs font-bold text-slate-400 font-mono">2023 - Coursera</span>
+          </div>
+          <h4 class="font-bold text-slate-900 dark:text-white text-base">Technical Support Fundamentals</h4>
+          <p class="text-xs text-slate-500 dark:text-slate-400">شهادة الدعم الفني الاحترافي للحاسب والأنظمة المعتمدة من شركة Google العالمية.</p>
+          <div class="pt-2">
+            <span class="text-[11px] font-mono text-blue-600 dark:text-blue-400">Verify: 5VZPSSKLSK2C</span>
+          </div>
+        </div>
+
+        <!-- Cert 2: Google Networking -->
+        <div class="glass-card rounded-2xl p-6 space-y-3 shadow-sm hover:shadow-lg transition-all border border-slate-200/80 dark:border-slate-800">
+          <div class="flex items-center justify-between">
+            <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 dark:bg-amber-950/60 dark:text-amber-400 flex items-center justify-center text-lg">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <span class="text-xs font-bold text-slate-400 font-mono">2023 - Coursera</span>
+          </div>
+          <h4 class="font-bold text-slate-900 dark:text-white text-base">Computer Networking Fundamentals</h4>
+          <p class="text-xs text-slate-500 dark:text-slate-400">شهادة أساسيات وبروتوكولات شبكات الحاسب الآلي المعتمدة من شركة Google.</p>
+          <div class="pt-2">
+            <span class="text-[11px] font-mono text-blue-600 dark:text-blue-400">Verify: JDGR5KJL4R4A</span>
+          </div>
+        </div>
+
+        <!-- Cert 3: Project Management Specialization -->
+        <div class="glass-card rounded-2xl p-6 space-y-3 shadow-sm hover:shadow-lg transition-all border border-slate-200/80 dark:border-slate-800">
+          <div class="flex items-center justify-between">
+            <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 dark:bg-emerald-950/60 dark:text-emerald-400 flex items-center justify-center text-lg">
+              <i class="fa-solid fa-diagram-project"></i>
+            </div>
+            <span class="text-xs font-bold text-slate-400 font-mono">2023 - إدراك</span>
+          </div>
+          <h4 class="font-bold text-slate-900 dark:text-white text-base">تخصص إدارة المشاريع (Project Management)</h4>
+          <p class="text-xs text-slate-500 dark:text-slate-400">أساسيات إدارة المشاريع، تخطيط الموارد والجدول الزمني، والمشروع من التنفيذ إلى الإغلاق.</p>
+          <div class="pt-2">
+            <span class="text-[11px] font-semibold text-emerald-600 dark:text-emerald-400">3 مساقات تخصصية معتمدة</span>
+          </div>
+        </div>
+
+        <!-- Cert 4: Advanced Excel -->
+        <div class="glass-card rounded-2xl p-6 space-y-3 shadow-sm hover:shadow-lg transition-all border border-slate-200/80 dark:border-slate-800">
+          <div class="flex items-center justify-between">
+            <div class="w-10 h-10 rounded-xl bg-green-50 text-green-600 dark:bg-green-950/60 dark:text-green-400 flex items-center justify-center text-lg">
+              <i class="fa-solid fa-table-cells"></i>
+            </div>
+            <span class="text-xs font-bold text-slate-400 font-mono">2023 - إدراك</span>
+          </div>
+          <h4 class="font-bold text-slate-900 dark:text-white text-base">مهارات متقدمة في برمجة Excel</h4>
+          <p class="text-xs text-slate-500 dark:text-slate-400">بناء التقارير المعقدة، التنسيقات الشرطية المتقدمة، معالجة البيانات عبر الدوال والمخططات التفاعلية.</p>
+        </div>
+
+        <!-- Cert 5: Office 365 -->
+        <div class="glass-card rounded-2xl p-6 space-y-3 shadow-sm hover:shadow-lg transition-all border border-slate-200/80 dark:border-slate-800">
+          <div class="flex items-center justify-between">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 dark:bg-blue-950/60 dark:text-blue-400 flex items-center justify-center text-lg">
+              <i class="fa-brands fa-microsoft"></i>
+            </div>
+            <span class="text-xs font-bold text-slate-400 font-mono">2023 - Microsoft / إدراك</span>
+          </div>
+          <h4 class="font-bold text-slate-900 dark:text-white text-base">تطبيقات الحوسبة السحابية Office 365</h4>
+          <p class="text-xs text-slate-500 dark:text-slate-400">إدارة SharePoint، بيئات العمل المشتركة، وتطبيقات مايكروسوفت السحابية للأعمال.</p>
+        </div>
+
+        <!-- Cert 6: Computer Hardware Diploma -->
+        <div class="glass-card rounded-2xl p-6 space-y-3 shadow-sm hover:shadow-lg transition-all border border-slate-200/80 dark:border-slate-800">
+          <div class="flex items-center justify-between">
+            <div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-600 dark:bg-purple-950/60 dark:text-purple-400 flex items-center justify-center text-lg">
+              <i class="fa-solid fa-wrench"></i>
+            </div>
+            <span class="text-xs font-bold text-slate-400 font-mono">تقدير ممتاز</span>
+          </div>
+          <h4 class="font-bold text-slate-900 dark:text-white text-base">دبلوم صيانة الحاسب الآلي والدعم الفني</h4>
+          <p class="text-xs text-slate-500 dark:text-slate-400">مركز المنقوري للكمبيوتر واللغات - دبلوم مهني في تشخيص الأعطال والصيانة الشاملة.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       7. Contact & Connect Section (تواصل معي)
+       ============================================================ -->
+  <section id="contact" class="py-20 md:py-28 bg-slate-100/70 dark:bg-slate-900/50 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <span class="px-3.5 py-1 rounded-full bg-blue-50 text-blue-600 dark:bg-blue-950/60 dark:text-blue-400 text-xs font-bold uppercase tracking-wider border border-blue-200 dark:border-blue-900">
+          قنوات الاتصال
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white">جاهز لبدء تعاون مثمر</h2>
+        <p class="text-slate-600 dark:text-slate-400 text-base">
+          تواصل معي مباشرة لمناقشة الفرص الوظيفية والمشاريع الاستشارية والحلول البرمجية
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+        
+        <!-- Contact Information Cards -->
+        <div class="lg:col-span-5 space-y-4">
+          
+          <!-- Primary Phone Card -->
+          <div class="glass-card rounded-2xl p-5 flex items-center justify-between shadow-sm border-s-4 border-s-blue-600">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-xl bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center text-xl shrink-0">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <span class="text-xs text-blue-600 dark:text-blue-400 font-bold">رقم الجوال (الأساسي)</span>
+                <div class="font-bold text-slate-900 dark:text-white text-lg font-mono dir-ltr text-right">0561698865</div>
+                <div class="text-xs text-slate-400 font-mono">رقم إضافي: 0557003980</div>
+              </div>
+            </div>
+            <button class="copy-btn p-2.5 rounded-xl bg-slate-100 hover:bg-blue-50 text-slate-600 hover:text-blue-600 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-300 transition-colors" data-copy="0561698865" title="نسخ الرقم الأساسي">
+              <i class="fa-regular fa-copy"></i>
+            </button>
+          </div>
+
+          <!-- Email Card -->
+          <div class="glass-card rounded-2xl p-5 flex items-center justify-between shadow-sm">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-xl bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 flex items-center justify-center text-xl shrink-0">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="truncate max-w-[200px] sm:max-w-xs">
+                <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">البريد الإلكتروني</span>
+                <div class="font-bold text-slate-900 dark:text-white text-sm sm:text-base font-mono truncate">Osman_almangory@hotmail.com</div>
+              </div>
+            </div>
+            <button class="copy-btn p-2.5 rounded-xl bg-slate-100 hover:bg-rose-50 text-slate-600 hover:text-rose-600 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-300 transition-colors" data-copy="Osman_almangory@hotmail.com" title="نسخ البريد">
+              <i class="fa-regular fa-copy"></i>
+            </button>
+          </div>
+
+          <!-- WhatsApp Card -->
+          <div class="glass-card rounded-2xl p-5 flex items-center justify-between shadow-sm border-s-4 border-s-emerald-500">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xl shrink-0">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div>
+                <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">محادثة واتساب مباشرة</span>
+                <div class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">0561698865</div>
+              </div>
+            </div>
+            <a href="https://wa.me/966561698865" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-sm transition-all flex items-center gap-1.5">
+              <span>محادثة</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+          </div>
+
+          <!-- Location Card -->
+          <div class="glass-card rounded-2xl p-5 flex items-center gap-4 shadow-sm">
+            <div class="w-12 h-12 rounded-xl bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center text-xl shrink-0">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">العنوان الحالي</span>
+              <div class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">المملكة العربية السعودية – الرياض (حي العزيزية)</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Interactive Contact Form -->
+        <div class="lg:col-span-7">
+          <div class="glass-card rounded-3xl p-6 sm:p-8 shadow-sm">
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-2">
+              <i class="fa-solid fa-paper-plane text-blue-600 dark:text-blue-400"></i>
+              <span>أرسل رسالة مباشرة</span>
+            </h3>
+
+            <form id="contact-form" class="space-y-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="contact-name" class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1.5">الاسم الكريم *</label>
+                  <input type="text" id="contact-name" required placeholder="مثال: م. أحمد" class="w-full px-4 py-3 rounded-xl bg-white dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+                </div>
+                <div>
+                  <label for="contact-email" class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1.5">البريد الإلكتروني أو رقم الهاتف *</label>
+                  <input type="text" id="contact-email" required placeholder="example@company.com" class="w-full px-4 py-3 rounded-xl bg-white dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all font-mono">
+                </div>
+              </div>
+
+              <div>
+                <label for="contact-subject" class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1.5">موضوع الرسالة</label>
+                <input type="text" id="contact-subject" placeholder="مثال: فرصة وظيفية / استشارة هندسية / مشروع تقني" class="w-full px-4 py-3 rounded-xl bg-white dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+              </div>
+
+              <div>
+                <label for="contact-message" class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1.5">نص الرسالة *</label>
+                <textarea id="contact-message" rows="4" required placeholder="اكتب تفاصيل استفسارك أو عرضك هنا..." class="w-full px-4 py-3 rounded-xl bg-white dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/30 transition-all flex items-center justify-center gap-2">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>إرسال الرسالة الآن</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Footer (التذييل)
+       ============================================================ -->
+  <footer class="border-t border-slate-200 dark:border-slate-800 py-10 glass-card">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-start">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold text-base">
+            ع
+          </div>
+          <div>
+            <div class="font-bold text-slate-900 dark:text-white text-sm">عثمان محمد عثمان</div>
+            <div class="text-xs text-slate-500 dark:text-slate-400">Portfolio & Live Apps © 2026</div>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4 text-sm text-slate-500 dark:text-slate-400">
+          <a href="#hero" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">الرئيسية</a>
+          <span>•</span>
+          <a href="#about" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">عن عثمان</a>
+          <span>•</span>
+          <a href="#projects" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">المواقع الحية</a>
+          <span>•</span>
+          <a href="#contact" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">التواصل</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       Project Details Modal (نافذة تفاصيل المشروع)
+       ============================================================ -->
+  <div id="project-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 hidden">
+    <!-- Backdrop -->
+    <div id="modal-backdrop" class="fixed inset-0 bg-slate-900/70 backdrop-blur-sm transition-opacity"></div>
+    
+    <!-- Modal Dialog -->
+    <div class="relative glass-card bg-white dark:bg-slate-900 w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl p-6 sm:p-8 space-y-6 z-10 border border-slate-200 dark:border-slate-700">
+      
+      <!-- Close Button -->
+      <button id="modal-close-btn" class="absolute top-6 start-6 w-9 h-9 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-500 hover:text-slate-900 dark:hover:text-white flex items-center justify-center text-sm transition-colors">
+        ✕
+      </button>
+
+      <!-- Modal Content -->
+      <div class="space-y-4 pt-2">
+        <div class="flex flex-wrap items-center gap-2">
+          <span id="modal-badge" class="px-3 py-1 rounded-lg text-xs font-bold bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300"></span>
+          <span id="modal-period" class="text-xs font-mono text-slate-500 dark:text-slate-400"></span>
+        </div>
+
+        <h3 id="modal-title" class="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white"></h3>
+        <p id="modal-company" class="text-xs sm:text-sm font-semibold text-blue-600 dark:text-blue-400"></p>
+
+        <!-- Screenshot Image Container Inside Modal -->
+        <div id="modal-image-container" class="pt-2 hidden"></div>
+
+        <!-- Live Link Action Inside Modal -->
+        <div id="modal-live-link" class="pt-1 hidden"></div>
+
+        <div class="space-y-2 pt-2 border-t border-slate-100 dark:border-slate-800">
+          <h4 class="text-sm font-bold text-slate-800 dark:text-slate-200">وصف المنظومة والحل:</h4>
+          <p id="modal-description" class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed text-justify"></p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+          <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/60 dark:border-slate-700/60 space-y-1">
+            <h5 class="text-xs font-bold text-rose-600 dark:text-rose-400">التحدي الذي تمت معالجته:</h5>
+            <p id="modal-challenges" class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed"></p>
+          </div>
+
+          <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/60 dark:border-slate-700/60 space-y-1">
+            <h5 class="text-xs font-bold text-emerald-600 dark:text-emerald-400">النهج البرمجي والهندسي:</h5>
+            <p id="modal-solution" class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed"></p>
+          </div>
+        </div>
+
+        <div class="space-y-2 pt-2">
+          <h4 class="text-sm font-bold text-slate-800 dark:text-slate-200">النتائج والأثر الملموس:</h4>
+          <ul id="modal-results" class="space-y-2 text-xs sm:text-sm"></ul>
+        </div>
+
+        <div class="space-y-2 pt-2">
+          <h4 class="text-sm font-bold text-slate-800 dark:text-slate-200">التقنيات المستخدمة:</h4>
+          <div id="modal-tech" class="flex flex-wrap gap-2"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
