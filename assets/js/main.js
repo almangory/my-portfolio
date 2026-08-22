@@ -1,6 +1,6 @@
 /**
  * Osman Mohamed - Portfolio & Interactive Resume
- * Main JavaScript Engine with Image Preview & Protected Projects
+ * Main JavaScript Engine with Image Preview, Social Links (YouTube & TikTok) & Protected Dashboards
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -165,7 +165,7 @@ const projectDetailsData = {
     company: 'نظام داخلي خاص بمشاريع شركة المياه الوطنية وقطاع الرياض',
     period: 'نظام تشغيلي متكامل (داخلي ومحمي)',
     badge: 'نظام داخلي خاص ومحمي 🔒',
-    liveUrl: null, // Private / Protected internal system
+    liveUrl: null,
     image: 'assets/images/interactive-maps-preview.png',
     description: 'بوابة إدارية وتحليلية جغرافية متكاملة خاصة بإدارة وتتبع عقود ومشاريع شبكات المياه والصرف الصحي بمدينة الرياض. تشتمل على لوحة تحكم ذكية لإدارة المشاريع (123+ مشروعاً)، البحث المتقدم والتصفية، إدارة صلاحيات الحسابات، سجل التغييرات، وتتبع الطبقات الجغرافية والميدانية بدقة متناهية.',
     challenges: 'الحاجة إلى منصة موحدة وآمنة لإدارة وتوزيع صلاحيات المهندسين ومتابعة حالة العقود (مسلم ابتدائي، جاري، معتمد) وربطها جغرافياً على خريطة الرياض في الوقت الفعلي.',
@@ -177,22 +177,44 @@ const projectDetailsData = {
     ],
     tech: ['Interactive Mapping', 'Spatial Query Engine', 'Role-Based Access Control', 'PWA & Offline Mode', 'GIS Layering']
   },
+  'project-3': {
+    title: 'لوحة المتابعة التنفيذية وأتمتة الدورة المستندية لمشاريع شبكات المياه والصرف الصحي',
+    company: 'مكتب الباردة للاستشارات الهندسية | شركة المياه الوطنية (عقد أحياء القدس والملك عبدالله)',
+    period: '2023م - حتى الآن (لوحة قيادة ومتابعة حية بالمشروع)',
+    badge: 'لوحة متابعة تنفيذية حية 📊',
+    liveUrl: null,
+    image: 'assets/images/edms-dashboard-preview.png',
+    description: 'لوحة معلومات ومؤشرات أداء تنفيذية رقمية متقدمة تم تصميمها لمتابعة عقد تنفيذ شبكات الصرف الصحي بأجزاء من أحياء القدس والملك عبدالله بمدينة الرياض. تشتمل اللوحة على عرض دقيق وفوري لنسب الإنجاز الفعلي مقابل المخطط (66.3% مقابل 69.0%)، المدة المنقضية (86.4%)، معدل الإنجاز على مدار 6 أشهر، معدل تنفيذ أطوال الأنابيب التراكمية، ومؤشرات صرف المستخلصات المالية (85% بما يتجاوز 5.26 مليون ريال).',
+    challenges: 'تشتت البيانات الفنية والتقارير الأسبوعية بين الاستشاري والمقاول وصعوبة توفير رؤية استراتيجية لحظية لمتخذي القرار ولجان المتابعة بشركة المياه الوطنية.',
+    solution: 'هندسة لوحة قيادة مركزية ومؤتمتة تدمج بيانات الجدول الزمني، مؤشرات الحفر والتمديد، موقف الطاقم الفني للمقاول، التصاريح البيئية، موقف المحتوى المحلي (HCIS)، وجداول الكميات المعدلة في شاشة تنفيذية واحدة.',
+    results: [
+      'تتبع دقيق ومباشر لنسب الإنجاز الفعلي والمخطط وتحديد الفجوات الزمنية بدقة.',
+      'رصد تراكمي لأطوال الأنابيب المنفذة شهرياً مع مقارنتها بالمستهدفات التعاقدية.',
+      'إدارة وتتبع المستخلصات المالية الصادرة والمصروفة بنسبة دقة 100%.',
+      'متابعة فورية للمخالفات البيئية وخطابات الحث والتحديات الميدانية مع المقاول.'
+    ],
+    tech: ['Executive Dashboard', 'KPI & S-Curve Tracking', 'MS 365 / Excel Engine', 'Contract Management', 'NWC Compliance']
+  },
   'project-naqla': {
     title: 'منصة "نقلة" للمناهج الإلكترونية وتطوير التعليم بالسودان',
     company: 'مبادرة تقنية وتعليمية رائدة لخدمة التعليم الوطني',
     period: 'منصة حية ومتاحة أونلاين 🚀',
     badge: 'مشروع ومبادرة خاصة 🌟',
     liveUrl: 'https://sudan-interactive-curricula.vercel.app/',
+    youtubeUrl: 'https://www.youtube.com/@naqla-educational',
+    tiktokUrl: 'https://www.tiktok.com/@naqlasd',
     image: null,
-    description: 'منصة تعليمية إلكترونية تفاعلية وتطبيق PWA هادف تم ابتكاره لتحسين جودة التعليم في السودان، وتحويل المناهج الدراسية إلى بيئة رقمية تفاعلية وسهلة الوصول تدعم العمل دون إنترنت لخدمة الطلاب والمعلمين في كافة المراحل.',
+    description: 'منصة تعليمية إلكترونية تفاعلية وتطبيق PWA هادف تم ابتكاره لتحسين جودة التعليم في السودان، وتحويل المناهج الدراسية إلى بيئة رقمية تفاعلية وسهلة الوصول تدعم العمل دون إنترنت لخدمة الطلاب والمعلمين في كافة المراحل، مدعومة بقناة يوتيوب وحساب تيك توك لتقديم الدروس والمحتوى التعليمي السريع.',
     challenges: 'انقطاع التعليم وصعوبة وصول الطلاب للكتب والمناهج الدراسية الورقية في ظل الظروف الراهنة في السودان وضعف الاتصال بالإنترنت.',
-    solution: 'هندسة منصة تعليمية خفيفة الوزن تعتمد نهج (Offline-First) عبر Service Workers، تتيح للطلاب تصفح المناهج والدروس والتمارين التفاعلية دون استهلاك كبير للبيانات.',
+    solution: 'هندسة منصة تعليمية خفيفة الوزن تعتمد نهج (Offline-First) عبر Service Workers، تتيح للطلاب تصفح المناهج والدروس والتمارين التفاعلية دون استهلاك كبير للبيانات، مع نشر الشروحات عبر يوتيوب وتيك توك.',
     results: [
       'منصة حية منشورة تخدم آلاف الطلاب والمعلمين السودانيين.',
       'تجربة تفاعلية متكاملة تدعم التثبيت المباشر على الهواتف والأجهزة اللوحية.',
+      'قناة يوتيوب تعليمية متخصصة ومصاحبة للمنصة: @naqla-educational.',
+      'حساب تيك توك رسمي لنشر الدروس التفاعلية والمراجعات: @naqlasd.',
       'مساهمة وطنية ومجتمعية فعالة في دعم استمرارية التعليم وتطويره.'
     ],
-    tech: ['EdTech Architecture', 'Offline-First (PWA)', 'Modern Web UI', 'Digital Curricula', 'Vercel Cloud']
+    tech: ['EdTech Architecture', 'Offline-First (PWA)', 'Modern Web UI', 'Digital Curricula', 'Social Video Integration']
   },
   'project-1': {
     title: 'نظام إدارة طلبات العملاء وقواعد البيانات الميدانية',
@@ -227,23 +249,6 @@ const projectDetailsData = {
       'تنظيم وأرشفة آلاف الملفات المكانية وتسهيل استعراضها للمهندسين.'
     ],
     tech: ['GIS Layers', 'KML / KMZ Parsing', 'Spatial Scripting', 'AutoCAD Data Integration']
-  },
-  'project-3': {
-    title: 'منظومة أتمتة الدورة المستندية والمراسلات الفنية',
-    company: 'مكتب الباردة للاستشارات الهندسية / NWC',
-    period: '2023م - حتى الآن',
-    badge: 'منظومة حية بالمشروع',
-    liveUrl: null,
-    image: null,
-    description: 'بيئة أرشفة وتتبع رقمية تربط تدفق الخطابات، المخططات التنفيذية، والاعتمادات الفنية (Submittals / Transmittals) بين المقاولين، الاستشاريين، وشركة المياه الوطنية.',
-    challenges: 'بطء الدورة المستندية اليدوية وتأخر الموافقات وضياع تتبع نسخ المخططات المحدثة.',
-    solution: 'أتمتة دورة حياة الوثيقة من الاستلام وحتى الاعتماد مع سجل تدقيق رقمي كامل وتنبيهات للمعاملات المتأخرة.',
-    results: [
-      'تسريع زمن مراجعة واعتماد المخططات والمستندات بنسبة تتجاوز 40%.',
-      'توفير لوحة متابعة فورية للإدارة العليا لجميع المراسلات المعلقة.',
-      'أرشفة سحابية منظمة يسهل الرجوع إليها في أي وقت.'
-    ],
-    tech: ['MS 365 Automation', 'Workflow Logic', 'Data Modeling', 'EDMS Protocols']
   }
 };
 
@@ -288,21 +293,42 @@ function initModals() {
     // Handle Live URL Action Button in Modal
     const liveLinkContainer = document.getElementById('modal-live-link');
     if (liveLinkContainer) {
+      let buttonsHtml = '';
       if (data.liveUrl) {
-        liveLinkContainer.innerHTML = `
+        buttonsHtml += `
           <a href="${data.liveUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-md shadow-emerald-600/25 transition-all">
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
             <span>زيارة الموقع الحي وتجربته</span>
           </a>
         `;
-        liveLinkContainer.classList.remove('hidden');
-      } else if (data.image) {
-        liveLinkContainer.innerHTML = `
+      }
+      if (data.youtubeUrl) {
+        buttonsHtml += `
+          <a href="${data.youtubeUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-red-600 hover:bg-red-700 text-white text-xs font-bold shadow-md shadow-red-600/25 transition-all">
+            <i class="fa-brands fa-youtube"></i>
+            <span>قناة اليوتيوب التعليمية</span>
+          </a>
+        `;
+      }
+      if (data.tiktokUrl) {
+        buttonsHtml += `
+          <a href="${data.tiktokUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 dark:bg-slate-700 text-white hover:bg-black text-xs font-bold shadow-md transition-all">
+            <i class="fa-brands fa-tiktok"></i>
+            <span>صفحة تيك توك (@naqlasd)</span>
+          </a>
+        `;
+      }
+      if (!data.liveUrl && data.image) {
+        buttonsHtml += `
           <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-semibold border border-slate-200 dark:border-slate-700">
-            <i class="fa-solid fa-shield-halved text-amber-500"></i>
-            <span>نظام تشغيلي داخلي خاص بالمشروع (محمي ومقيد الصلاحيات)</span>
+            <i class="fa-solid fa-chart-line text-blue-500"></i>
+            <span>لوحة معلومات تنفيذية خاصة بمشاريع شركة المياه الوطنية</span>
           </div>
         `;
+      }
+      
+      if (buttonsHtml) {
+        liveLinkContainer.innerHTML = `<div class="flex flex-wrap items-center gap-2">${buttonsHtml}</div>`;
         liveLinkContainer.classList.remove('hidden');
       } else {
         liveLinkContainer.innerHTML = '';
