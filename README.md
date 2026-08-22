@@ -50,6 +50,7 @@
 │   ├── js/
 │   │   └── main.js         # محرك التفاعلات (الوضع الليلي، الفلاتر، النوافذ المنبثقة، العدادات)
 │   └── images/
+│       ├── profile-avatar.png           # الصورة الشخصية الرسمية (تمت معالجتها بدقة)
 │       ├── honor-nwc-1.jpg              # صورة استلام درع التكريم الرسمي من شركة المياه الوطنية
 │       ├── honor-nwc-2.jpg              # صورة التكريم مع الطاقم الهندسي وإدارة المشروع
 │       ├── edms-dashboard-preview.png   # لقطة شاشة لوحة المتابعة التنفيذية (NWC)
@@ -62,5 +63,8 @@
 ## 🔄 كيفية تحديث التعديلات على GitHub:
 1. ادخل على مستودعك: [https://github.com/almangory/my-portfolio](https://github.com/almangory/my-portfolio)
 2. اضغط على **Add file** -> **Upload files**.
-3. ارفع ملفات المشروع المحدثة (`index.html` و `assets/js/main.js` ومجلد `assets/images` الذي يحتوي على الصور الجديدة).
+3. ارفع ملفات المشروع المحدثة:
+   - ملف **`index.html`**
+   - ملف **`assets/images/profile-avatar.png`** (الصورة الشخصية)
+   - صُوَر التكريم **`honor-nwc-1.jpg`** و **`honor-nwc-2.jpg`**
 4. اضغط **Commit changes**.
